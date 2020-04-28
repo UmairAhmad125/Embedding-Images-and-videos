@@ -1,0 +1,33 @@
+
+.main{
+    display: flex;
+}
+nav{
+
+    background-color: brown;
+    width: 100vw;
+    max-height: 56px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    margin: 0 auto;
+    max-width: 90vw;
+    padding-top: 80px;
+}
+section{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 60vw;
+}
+
+
+aside{
+    background-color: rgb(70, 175, 93);
+    height: 100vh; 
+    width: 40vw; 
+}
+.logo img{
+    max-height: 50px;
+}
