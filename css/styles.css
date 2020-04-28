@@ -31,25 +31,34 @@ nav{
 }
 .search-div{
   flex:1 0 auto ;
+  margin-left: 200px;
 }
 .search-box{
     border-style: solid;
     border-width: .03ch;
-
+    
 }
 input{
-    padding: 6px;
+   
     font-size: 10pt;
     font-style: normal;
+    width: 400px;
+    height: 32px;
+    padding: 1px 0px;
+    border: 1px solid #ccc;
 }
 .search-btn{
     border: 1px solid #ccc;
+    width: 64px;
     height: 32px;
+    padding: 1px 6px;
+    margin-left: -4px;
+
 }
 .search-svg{
   
-    width: 20px;
-    height: 20px;
+    width: 27.44px;
+    height: 15px;
 }
 .main{
     display: flex;
@@ -59,11 +68,15 @@ input{
     margin: 0 auto;
     max-width: 90vw;
     padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 section{
-    background-color: blueviolet;
     height: 100vh;
     width: 60vw;
+    
 }
 
 
@@ -78,10 +91,15 @@ aside{
 .right-elements{
     display: flex;
     flex-wrap: nowrap;
+    
 }
 .right-element{
     width: 24px;
     height: 24px;
+    padding: 5%;    
+}
+.opacity{
+    opacity: .6;
 }
 .user-img{
     background-color: rebeccapurple;
@@ -89,4 +107,13 @@ aside{
     width: 32px;
     border-radius: 50%;
     text-align: center;
+    
+}
+.iframe{
+    width: 100%;
+    height: 100%;
+}
+.div-iframe{
+    width: 600px;
+    height: 400px;
 }
