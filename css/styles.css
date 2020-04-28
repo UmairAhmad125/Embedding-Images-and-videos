@@ -75,7 +75,7 @@ input{
 }
 section{
     height: 100vh;
-    width: 60vw;
+    width: 60%;
     
 }
 
@@ -83,7 +83,9 @@ section{
 aside{
     background-color: rgb(70, 175, 93);
     height: 100vh; 
-    width: 40vw; 
+    width: 40%; 
+    display: flex;
+    flex-flow: column nowrap;
 }
 .logo img{
     max-height: 50px;
@@ -111,9 +113,10 @@ aside{
 }
 .iframe{
     width: 100%;
-    height: 100%;
+    height: 500px;
+   
 }
 .div-iframe{
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
