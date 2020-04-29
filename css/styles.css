@@ -152,12 +152,11 @@ width: auto;
     display: flex;
     flex-flow: column nowrap;
 }
-.sugestion-details h3{
-    font-size: 1.1rem;
-font-weight: 500;
-}
+
 h3{
     padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 900;
 }
 h5{
     padding-bottom: 5px;
@@ -175,4 +174,60 @@ h5{
 .social-btn-style{
     width: 20px;
     height: 20px;
+    margin: 8px;
+}
+
+.social-buttons{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.chanel-info{
+    border-bottom: solid lightgray 1px;
+    padding-bottom: 20px;
+}
+.chanel-author-subscribe{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.author-img{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: red;
+}
+.subrscribe-btn{
+    background-color: red;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    text-transform: uppercase;
+    padding: 16px 10px 16px 10px;
+    font-weight: 600px;
+}
+.name-subscriber{
+    margin-left: 50px;
+}
+.comments-count{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.user-comment{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.video-details{
+    padding-top: 40px;
+}
+.commenter-img{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.author-comment{
+    padding-top: 40px;
+    padding-left: 50px;
 }
