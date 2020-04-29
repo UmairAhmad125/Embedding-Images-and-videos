@@ -8,19 +8,23 @@ nav{
     width: 100vw;
     height: 56px;
     position: fixed;
+    display: flex;
+    align-items: center;
 }
 .nav-container{
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 400px auto 400px;
+    place-items: center center;
     padding: 0 16px;
 }
 .left-elements{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-self: center;
+    justify-self: start;
 }
+
 .menu-svg{
     width: 24px;
     height: 24px;
@@ -31,10 +35,9 @@ nav{
     height: 24px;
 }
 .search-div{
-  flex:1 0 auto ;
-  margin-left: 200px;
-  
-}
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 .search-box{
     border-style: solid;
     border-width: .03ch;
@@ -44,8 +47,7 @@ input{
    
     font-size: 10pt;
     font-style: normal;
-    width: 400px;
-    height: 32px;
+    width: 575px;
     padding: 1px 0px;
     border: 1px solid #ccc;
 }
@@ -54,8 +56,6 @@ input{
     width: 64px;
     height: 32px;
     padding: 1px 6px;
-    margin-left: -4px;
-
 }
 .search-svg{
   
@@ -97,13 +97,15 @@ aside{
 }
 .right-elements{
     display: flex;
+    align-items: center;
     flex-wrap: nowrap;
-    
+    justify-self: end;
+    margin-right: 40px;
 }
 .right-element{
     width: 24px;
     height: 24px;
-    padding: 5%;    
+    margin-right: 10px;
 }
 .opacity{
     opacity: .6;
@@ -113,8 +115,9 @@ aside{
     height: 32px;
     width: 32px;
     border-radius: 50%;
-    text-align: center;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .iframe{
     width: 100%;
