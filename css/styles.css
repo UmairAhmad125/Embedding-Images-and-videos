@@ -33,6 +33,7 @@ nav{
 .search-div{
   flex:1 0 auto ;
   margin-left: 200px;
+  
 }
 .search-box{
     border-style: solid;
@@ -174,7 +175,12 @@ h5{
 .social-btn-style{
     width: 20px;
     height: 20px;
-    margin: 8px;
+    margin-left: 10px;
+    /* margin: 8px; */
+}
+.comment{
+    display: grid;
+
 }
 
 .social-buttons{
@@ -210,8 +216,10 @@ h5{
     margin-left: 50px;
 }
 .comments-count{
+    padding-top: 10px;
     display: flex;
     flex-flow: row nowrap;
+   
 }
 .user-comment{
     display: flex;
@@ -231,3 +239,21 @@ h5{
     padding-top: 40px;
     padding-left: 50px;
 }
+.add-comment-section{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.comment{
+    margin-left: 20px;
+    flex: 1 0 auto;
+    background: transparent;
+    outline: none;
+    border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+}
+.comment:focus{
+    border-width: 0px;
+    border-bottom: 2px solid;
+}
+/* Toggle button */
