@@ -39,7 +39,7 @@ nav{
 .nav-container{
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 400px auto 400px;
+    grid-template-columns: 1fr 3fr 1fr;
     place-items: center center;
     padding: 0 16px;
 }
@@ -90,7 +90,7 @@ input{
 
 .main{
     margin: 0 auto;
-    max-width: 90vw;
+    max-width: 95vw;
     padding-top: 80px;
     display: grid;
     grid-template-columns: 60vw auto;
