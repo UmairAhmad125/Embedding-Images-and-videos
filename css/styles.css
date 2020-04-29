@@ -72,7 +72,7 @@ input{
    
     font-size: 10pt;
     font-style: normal;
-    width: 575px;
+    width: 35vw;
     padding: 1px 0px;
     border: 1px solid #ccc;
 }
@@ -87,24 +87,22 @@ input{
     width: 27.44px;
     height: 15px;
 }
-.main{
-    display: flex;
-}
 
 .main{
     margin: 0 auto;
     max-width: 90vw;
     padding-top: 80px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 60vw auto;
+    /* display: flex;
+    flex-direction: row; */
+    /* flex-wrap: wrap; */
     
 }
 section{
     display: flex;
     flex-flow: column nowrap;
     height: 100vh;
-    width: 55%;
     padding: 24px 24px 0 0;
     
 }
@@ -112,7 +110,7 @@ section{
 
 aside{
     height: 100vh; 
-    width: 40%; 
+    /* width: 40%;  */
     display: flex;
     flex-flow: column nowrap;
     padding: 24px 24px 0 0;
