@@ -10,8 +10,12 @@ header h1{
     font-weight: bold;
 }
 header label{
+    
+    font-weight: 500;
+    letter-spacing: 0.007px;
+    
 
-    text-transform: uppercase;
+
 }
 .headeer-elements{
     display: flex;
@@ -229,12 +233,13 @@ h5{
 }
 .subrscribe-btn{
     background-color: red;
+    min-width: 105px;
     color: white;
     border-radius: 5%;
     border: none;
-    text-transform: uppercase;
+  
     padding: 16px 10px 16px 10px;
-    font-weight: 600px;
+    font-weight: bold;
 }
 .name-subscriber{
     margin-left: 50px;
@@ -243,15 +248,19 @@ h5{
     padding-top: 10px;
     display: flex;
     flex-flow: row nowrap;
+   justify-content: flex-start;
+   align-items: center;
    
 }
 .user-comment{
-    display: flex;
-    flex-flow: row nowrap;
+    display: grid;
+    grid-template-columns: 70px auto;
+    padding-top: 40px;
 }
 
 .video-details{
-    padding-top: 40px;
+    padding: 40px;
+
 }
 .commenter-img{
     background-color: blue;
@@ -260,8 +269,8 @@ h5{
     border-radius: 50%;
 }
 .author-comment{
-    padding-top: 40px;
-    padding-left: 50px;
+
+  
 }
 .add-comment-section{
     display: flex;
@@ -307,4 +316,15 @@ input[type="checkbox"]:before{
 }
 input:checked[type="checkbox"]:before{
     left: 40px;
+}
+.toUpercase{
+    text-transform: uppercase;
+}
+.comment-time{
+    font-size: 14px;
+    color: rgba(41, 41, 41, 0.459);
+}
+.like-dislike{
+    width: 16px;
+    height: 16px;
 }

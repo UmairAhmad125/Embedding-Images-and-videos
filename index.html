@@ -59,11 +59,11 @@
                         </div>
                         <div class="social-btn">
                             <img class="social-btn-style opacity" src="resources/share.svg" alt="">
-                            <p class="btn-social-sizing">Share</p>
+                            <p class="btn-social-sizing toUpercase">Share</p>
                         </div>
                         <div class="social-btn">
                             <img class="social-btn-style opacity" src="resources/save.svg" alt="">
-                            <p class="btn-social-sizing">
+                            <p class="btn-social-sizing toUpercase">
                                 save
                             </p>
                         </div>
@@ -84,7 +84,7 @@
                             </div>
                         </div>
 
-                        <button class="subrscribe-btn">Subscribe</button>
+                        <button class="subrscribe-btn toUpercase">Subscribe</button>
                     </div>
                     <div class="video-details">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos similique, rerum quisquam libero
@@ -95,8 +95,10 @@
                 <div class="comments">
                     <div class="comments-count">
                         <p>1,038 Comments</p>
-                        <img class="social-btn-style opacity" src="resources/sort.svg" alt="">
-                        <p>Sort by</p>
+                        <div class="social-btn">
+                            <img class="social-btn-style opacity" src="resources/sort.svg" alt="">
+                            <p class="toUpercase">Sort by</p>
+                        </div>
 
                     </div>
                     <div class="add-comment-section">
@@ -108,13 +110,25 @@
                             <img src="" alt="">
                         </div>
                         <div class="author-comment">
+                            <h3>Name <span class="comment-time">1 year ago</span></h3>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias culpa, explicabo
                                 voluptas esse quidem quis? Rerum placeat iusto, nulla amet eius ratione enim cum ex,
                                 quae facilis distinctio nisi corrupti?</p>
                         </div>
                     </div>
 
+                    <div class="user-comment">
+                        <div class="commenter-img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="author-comment">
+                            <h3>Name <span class="">1 year ago</span></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias culpa, explicabo
+                                voluptas esse quidem quis? Rerum placeat iusto, nulla amet eius ratione enim cum ex,
+                                quae facilis distinctio nisi corrupti?</p>
 
+                        </div>
+                    </div>
                 </div>
 
             </section>
@@ -123,7 +137,7 @@
                 <header>
                     <h1>Up Next</h1>
                     <div class="headeer-elements">
-                        <label for="checkbox">Autoplay</label>
+                        <label class="toUpercase" for="checkbox">Autoplay</label>
                         <label class="switch">
                             <input type="checkbox" checked>
                         </label>
