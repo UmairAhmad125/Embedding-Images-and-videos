@@ -1,5 +1,4 @@
 # Embedding-Images-and-videos
-# Embedding-Images-and-videos
 
 Youtube clone project for Microverse
 ===================
@@ -13,7 +12,6 @@ Youtube clone project for Microverse
 [live demo](https://jovial-neumann-6765b0.netlify.app/)
 
 
-
  # Prerequisites #
 
 - Chrome 
@@ -25,13 +23,10 @@ Youtube clone project for Microverse
  # Authors # 
 
 
-👤 Author1
+👤 Umair Ahmad
  - [github](https://github.com/UmairAhmad125)  
    
 
 
-👤 Author2
-
-Github: @githubhandle
-Twitter: @twitterhandle
-Linkedin: linkedin
+👤 Vitalie Melnic
+- [github](https://github.com/vmwhoami)
