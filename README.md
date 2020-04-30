@@ -28,9 +28,12 @@ Youtube clone project for Microverse
 
 
 👤 Umair Ahmad
- - [github](https://github.com/UmairAhmad125)  
-   
+ - [github](https://github.com/UmairAhmad125)
+ - [LinkedIn](https://www.linkedin.com/in/umair-ahmad-b5a89015a/)  
+-[twitter](@umairahmadDP)   
 
 
 👤 Vitalie Melnic
 - [github](https://github.com/vmwhoami)
+- [LinkedIn](https://www.linkedin.com/in/vitalie-melnic-5802198a/)
+-[twitter](@vmwhoami)
