@@ -34,6 +34,7 @@ nav{
     position: fixed;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 .nav-container{
     margin: 0 auto;
