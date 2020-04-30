@@ -1,29 +1,37 @@
 # Embedding-Images-and-videos
-Youtube clone (First Project)
-Markup :  # Youtube clone project for Microverse  #
+# Embedding-Images-and-videos
+
+Youtube clone project for Microverse
+===================
+
+# Built with #
+ - HTML5 
+  - CSS3 
 
 
-Markup :  - - - -
-
-Built With
- Markup : - HTML5 
-          - CSS3 
-
-
-Markup :  # Live Demo #
-Markup :  [live demo](https://jovial-neumann-6765b0.netlify.app/)
-
-
-
-Markup :  # Prerequisites #
-
-Markup : - Chrome 
-          - Firefox
-          - Safari
+# Live Demo #
+[live demo](https://jovial-neumann-6765b0.netlify.app/)
 
 
 
-Markup : # Authors # 
+ # Prerequisites #
 
-Markup : - Umair Ahmad 
-          - Vitalie Melnic
+- Chrome 
+- Firefox
+ - Safari
+
+
+
+ # Authors # 
+
+
+👤 Author1
+ - [github](https://github.com/UmairAhmad125)  
+   
+
+
+👤 Author2
+
+Github: @githubhandle
+Twitter: @twitterhandle
+Linkedin: linkedin
