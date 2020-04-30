@@ -17,6 +17,12 @@ Markup :  [live demo](https://jovial-neumann-6765b0.netlify.app/)
 
 Markup :  # Prerequisites #
 
+Markup : - Chrome 
+          - Firefox
+          - Safari
+
+
+
 Markup : # Authors # 
 
 Markup : - Umair Ahmad 
