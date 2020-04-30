@@ -117,7 +117,12 @@ aside{
     padding: 8px;
 }
 .opacity{
-    opacity: .6;
+    opacity: .5;
+}
+.faded-color{
+    color: #797979;
+    font-weight: 600;
+    font-size: 14px;
 }
 .user-img{
     background-color: rebeccapurple;
@@ -170,9 +175,10 @@ aside{
     font-weight: 900;
     font-family: "Roboto", sans-serif;
 }
-.video-details p{
+ p{
     line-height: 1.5em;
     font-size: 14px;
+    font-weight: normal;
 } 
 
 h5{ 
@@ -193,7 +199,7 @@ h5{
 .social-btn-style{
     width: 20px;
     height: 20px;
-    /* margin-left: 10px; */
+   
     margin: 8px; 
 }
 .comment{
@@ -248,6 +254,9 @@ h5{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    color: #797979;
+    font-weight: 600;
+    font-size: 13px;
 }
 span{
     padding-right: 5px;
@@ -337,4 +346,9 @@ input:checked[type="checkbox"]:before{
 .like-dislike{
     width: 16px;
     height: 16px;
+}
+.comment-social{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
 }
