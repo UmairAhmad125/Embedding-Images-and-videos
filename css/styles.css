@@ -13,9 +13,6 @@ header label{
     
     font-weight: 500;
     letter-spacing: 0.007px;
-    
-
-
 }
 .headeer-elements{
     display: flex;
@@ -49,7 +46,6 @@ nav{
     flex-wrap: nowrap;
     justify-self: start;
 }
-
 .menu-svg{
     width: 24px;
     height: 24px;
@@ -65,11 +61,9 @@ nav{
   }
 .search-box{
     border-style: solid;
-    border-width: .03ch;
-    
+    border-width: .03ch;  
 }
-input{
-   
+input{ 
     font-size: 10pt;
     font-style: normal;
     width: 35vw;
@@ -83,7 +77,6 @@ input{
     padding: 1px 6px;
 }
 .search-svg{
-  
     width: 27.44px;
     height: 15px;
 }
@@ -94,10 +87,6 @@ input{
     padding-top: 80px;
     display: grid;
     grid-template-columns: 60vw auto;
-    /* display: flex;
-    flex-direction: row; */
-    /* flex-wrap: wrap; */
-    
 }
 section{
     display: flex;
@@ -106,11 +95,8 @@ section{
     padding: 24px 24px 0 0;
     
 }
-
-
 aside{
     height: 100vh; 
-    /* width: 40%;  */
     display: flex;
     flex-flow: column nowrap;
     padding: 24px 24px 0 0;
@@ -121,10 +107,6 @@ aside{
 .right-elements{
     display: flex;
     align-items: center;
-    
-    /* flex-wrap: nowrap;
-    justify-self: end;
-    margin-right: 120px; */
 }
 .right-element{
     width: 24px;
@@ -151,13 +133,11 @@ aside{
 }
 .div-iframe{
     width: 100%;
-    /* height: 100%; */
 }
 
 .sugestion{
     display: flex;
     flex-flow: row nowrap;
-    /* width: 426px; */
     height: 94;
     margin-bottom: 8px;
 }
@@ -231,6 +211,12 @@ h5{
     border-radius: 50%;
     background-color: red;
 }
+.author-pic{
+    height: 48px;
+    width: 48px;
+    clip-path: circle(50% at 50% 50%);
+
+}
 .subrscribe-btn{
     background-color: red;
     min-width: 105px;
@@ -267,10 +253,6 @@ h5{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-}
-.author-comment{
-
-  
 }
 .add-comment-section{
     display: flex;
