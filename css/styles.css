@@ -38,15 +38,15 @@ nav{
 .nav-container{
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     place-items: center center;
-    padding: 0 16px;
 }
 .left-elements{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-self: start;
+    justify-self: flex-start;
+    padding-left: 2vw;
 }
 .menu-svg{
     width: 24px;
@@ -60,6 +60,8 @@ nav{
 .search-div{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* width: 80%; */
+    justify-self: center;
   }
 .search-box{
     border-style: solid;
@@ -68,8 +70,8 @@ nav{
 input{ 
     font-size: 10pt;
     font-style: normal;
-    width: 35vw;
-    padding: 1px 0px;
+    width: 45vw;
+    padding: 1px 10px;
     border: 1px solid #ccc;
 }
 .search-btn{
@@ -85,7 +87,7 @@ input{
 
 .main{
     margin: 0 auto;
-    max-width: 95vw;
+    max-width: 90vw;
     padding-top: 80px;
     display: grid;
     grid-template-columns: 60vw auto;
@@ -101,7 +103,7 @@ aside{
     height: 100vh; 
     display: flex;
     flex-flow: column nowrap;
-    padding: 24px 24px 0 0;
+    padding: 24px 0 0 0;
 }
 .logo img{
     max-height: 50px;
@@ -109,6 +111,8 @@ aside{
 .right-elements{
     display: flex;
     align-items: center;
+    justify-self: flex-end;
+    padding-right: 3vw;
 }
 .right-element{
     width: 24px;
