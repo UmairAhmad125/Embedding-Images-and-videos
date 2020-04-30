@@ -13,7 +13,7 @@ Youtube clone project for Microverse
 
 
  # Prerequisites #
-
+ All Modern web browsers like:
 - Chrome 
 - Firefox
  - Safari
